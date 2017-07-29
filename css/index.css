@@ -1,0 +1,430 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #333;
+      background-color: #eee;
+      margin: 0;
+    }
+
+    .header {
+      background: url(../images/header.png) repeat-x left top;
+      height: 63px;
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+    }
+
+    .mainnav {
+      width: 1263px;
+      height: 61px;
+      margin: 0 auto;
+    }
+    .logo {
+      background: url(../images/logo.png) repeat-x left top;
+      float: left;
+      height: 60px;
+      width: 100px;
+      overflow: hidden;
+    }
+
+    ul,
+    dl,
+    dt,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    form,
+    figure,
+    input {
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    h1 {
+      display: block;
+      text-indent: -9999px;
+    }
+
+    .menu {
+      font-size: 14px;
+      color: #fff;
+      float: left;
+      height: 60px;
+      padding-left: 18px;
+    }
+
+    .menu li {
+      float: left;
+    }
+
+    .menu a,
+    .login a {
+      display: inline-block;
+      padding: 20px 0;
+      margin: 0 15px;
+    }
+
+    .menu .active,
+    .menu a:hover,
+    .login a:hover {
+      color: #ff88af;
+      text-decoration: none;
+    }
+
+    .login {
+      float: right;
+    }
+
+    .login a:hover {
+      text-decoration: underline;
+    }
+
+    .login a {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .main {
+      position: relative;
+      top: 73px;
+      margin: 0 auto;
+      width: 1263px;
+      background: #ccc;
+    }
+
+    .recommend {
+      overflow: hidden;
+      background: #1e1e1e;
+      padding: 10px;
+    }
+
+    .carousel {
+      background:url(../images/recommand.jpg) no-repeat;
+      width: 663px;
+      height: 360px;
+      float: left;
+      background-size: cover;
+      position: relative;
+      background-position: 50% 50%;
+    }
+    .carousel h2 {
+      font-weight: normal;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      font-size: 22px;
+      text-indent: 10px;
+      background: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+
+    .ranking {
+      float: right;
+      width: 570px;
+      height: 360px;
+    }
+
+    .ranking aside {
+      position: relative;
+      top: 20px;
+      width: 280px;
+    }
+
+    .ranking .imgs {
+      width: 570px;
+      height: 144px;
+    }
+
+    .ranking .imgs div {
+      width: 110px;
+      height: 144px;
+      box-sizing:border-box;
+      -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+      float: left;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .ranking .imgs div:hover {
+      border: 1px solid #CB0B5E;
+    }
+
+    .ranking .imgs div:hover h4 {
+      background: #CB0B5E;
+    }
+
+    .ranking .imgs h4 {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      position: absolute;
+       overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding: 5px 0;
+      left: 0;
+      text-indent: 4px;
+      bottom: 0;
+    }
+
+    .ranking .imgs div:nth-child(1) {
+      background:url(../images/img1.jpg) no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+
+     .ranking .imgs div:nth-child(2) {
+      background:url(../images/img2.jpg) no-repeat;
+      background-size: cover;
+      margin-left: 5px;
+      background-position: 50% 50%;
+    }
+
+     .ranking .imgs div:nth-child(3) {
+      background:url(../images/img3.jpg) no-repeat;
+      background-size: cover;
+      margin-left: 5px;
+      background-position: 50% 50%;
+    }
+
+     .ranking .imgs div:nth-child(4) {
+      background:url(../images/img4.jpg) no-repeat;
+      background-size: cover;
+      margin-left: 5px;
+      background-position: 50% 50%;
+    }
+
+     .ranking .imgs div:nth-child(5) {
+      background:url(../images/img5.jpg) no-repeat;
+      background-size: cover;
+      margin-left: 5px;
+      background-position: 50% 50%;
+    }
+    
+     .ranking .lately {
+       float: left;
+      }
+
+    .ranking .hot {
+      float: right;
+    } 
+     .ranking aside h3 {
+      color: #CB0B5E;
+      font-weight: bold;
+      font-size: 16px;
+      height: 28px;
+    }
+
+    .ranking ul a {
+      display: block;
+      overflow: hidden; 
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      height: 28px;
+      color: #afafaf;
+      line-height: 28px;
+      font-size: 14px;
+    } 
+
+    .ranking ul a:hover {
+        color: #CB0B5E;
+    }
+
+    .remark {
+      width: 100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      background: white;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    .remark b {
+      display: inline-block;
+      width: 46px;
+      padding: 0 4px 0 0;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      color: white;
+      background:url(../images/b.png) no-repeat 0 -520px;
+      vertical-align: middle;
+      margin: 0 10px 0 0;
+    }
+
+
+    .remark  a {
+      font-size: 14px;
+      background: #f2f2f2;
+      height: 24px;
+      line-height: 24px;
+      margin: 2px 10px 0 0 ;
+      display: inline-block;
+      padding: 0 10px;
+      color: #505050;
+      vertical-align: middle;
+    }
+
+    .remark a:hover {
+      background: #fa5b9e;
+      color: white;
+    }
+
+    .type {
+      padding: 10px 10px 2px 10px; 
+      background: white;
+      border-bottom: 2px solid #CB0B5E;
+    }
+
+    .type h4 {
+      font-size: 28px;
+      font-weight: 100;
+      color: #333;
+      display: inline-block;
+    }
+
+    .gallery {
+      padding: 10px;
+    }
+
+    .type a {
+      position: relative;
+      bottom: 0;
+      display: block;
+      background: #f2f2f2;
+      height: 28px;
+      line-height: 28px;
+      margin: 8px 10px 0 0 ;
+      padding: 0 10px;
+      color: #505050;
+      float: right;
+    }
+
+    .type a:hover {
+      color: white;
+      background:#fa5b9e;
+    }
+    .gallery {
+      background: white;
+    }
+
+    .gallery ul {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .gallery li {
+      height: 416px;
+      background: #eee;
+      float: left;
+      display: block;
+      width: 236px;
+      margin-right: 13px;
+      margin-bottom: 10px;
+    }
+
+    .gallery img {
+      margin-bottom: 8px;
+    }
+
+    .gallery li span {
+      height: 18px;
+      line-height: 16px;
+      display: block;
+      color: #333;
+      text-indent: 5px;
+      overflow: hidden;
+      margin-bottom: 5px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .gallery img:hover {
+      opacity: 0.85;
+    }
+
+    .gallery li a span:hover {
+       color: #fa5b9e;
+    }
+
+  .gallery .time {
+    float: left;
+      margin-left: 5px;
+      padding-left: 10px;
+     margin-top: 2px;
+      background: url(../images/time.gif) no-repeat left 2px;
+  }
+
+  .gallery .view {
+    float: right;
+    margin-top: 2px;
+    padding-left: 10px;
+    margin-right: 5px;
+    background: url(../images/view.gif) no-repeat left 2px;
+  }
+    .gallery li:nth-child(5n) {
+      margin-right: 0;
+    }
+
+    .pageno {
+      padding-bottom: 20px;
+      background: white;
+    
+    }
+
+    .pageno ul {
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    .pageno li{
+      float: left;
+      margin-left: 10px;
+      border: 1px solid #ebebeb;
+    }
+
+    .pageno li:nth-child(5) {
+      border: none;
+    }
+
+    .pageno li a, .pageno li span{
+     display: block;
+     padding: 7px 12px;
+    }
+
+    .curpage, .pageno li a:hover {
+      color: white;
+      background: #fa5b9e;
+    }
+
+    .footer {
+      line-height: 3em;
+      text-align: center;
+      position: relative;
+      top: 83px;
+      margin: 30px auto 60px auto;
+      width: 1263px;
+    }
+    
