@@ -1,0 +1,147 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: #333;
+      background-color: #eee;
+      margin: 0;
+    }
+
+      .header {
+      background: url(../images/header.png) repeat-x left top;
+      height: 63px;
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+    }
+
+    .mainnav {
+      width: 1263px;
+      height: 61px;
+      margin: 0 auto;
+    }
+    .logo {
+      background: url(../images/logo.png) repeat-x left top;
+      float: left;
+      height: 60px;
+      width: 100px;
+      overflow: hidden;
+    }
+
+     ul,
+    dl,
+    dt,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    form,
+    figure,
+    input {
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    h1 {
+      display: block;
+      text-indent: -9999px;
+    }
+
+    .menu {
+      font-size: 14px;
+      color: #fff;
+      float: left;
+      height: 60px;
+      padding-left: 18px;
+    }
+
+    .menu li {
+      float: left;
+    }
+
+    .menu a,
+    .login a {
+      display: inline-block;
+      padding: 20px 0;
+      margin: 0 15px;
+    }
+
+    .menu .active,
+    .menu a:hover,
+    .login a:hover {
+      color: #ff88af;
+      text-decoration: none;
+    }
+
+    .login {
+      float: right;
+    }
+
+    .login a:hover {
+      text-decoration: underline;
+    }
+
+    .login a {
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .main {
+      position: relative;
+      top: 73px;
+      margin: 0 auto;
+      width: 1263px;
+      overflow: hidden;
+    }
+
+    .main .gallery {
+        background:#fff;
+        width:  953px;
+        float: left;
+    }
+
+    .gallery figure {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .gallery figure figcaption {
+        text-align: left;
+    }
+
+     .gallery .curpath a:hover {
+      color: #ff88af;
+      text-decoration: none;
+    }
+
+    .gallery .curpath {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .main .command {
+        background: #333;
+        height: 200px;
+        width: 300px;
+        float: right;
+    }
+
+    .footer {
+      line-height: 3em;
+      text-align: center;
+      position: relative;
+      top: 83px;
+      margin: 30px auto 60px auto;
+      width: 1263px;
+    }
+    
