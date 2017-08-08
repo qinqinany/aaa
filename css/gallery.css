@@ -106,17 +106,8 @@
 
     .main .gallery {
         background:#fff;
-        width:  953px;
+        width:  993px;
         float: left;
-    }
-
-    .gallery figure {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .gallery figure figcaption {
-        text-align: left;
     }
 
      .gallery .curpath a:hover {
@@ -128,45 +119,136 @@
         padding: 10px;
         border-bottom: 1px solid #eee;
     }
-      .main-image {
-        height: 800px;
-      }
+
+    .main-title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      height: 24px;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .main-meta {
+      text-align: center;
+      color: #999;
+      height: 38px;
+      padding-left: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .main-meta span {
+      display: inline-block;
+      margin-top: 8px;
+      margin-right: 10px;
+    }
+
+    .main-image {
+      margin-top: 10px;
+      height: 800px;
+    }
 
   .swiper-container {
         width: 100%;
-        height: auto;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+    
     .swiper-slide {
         background-size: auto 100%;
         background-position: center;  
         background-repeat: no-repeat;
     }
-    .gallery-top {
-        height: 80%;
-        width: 100%;
-    }
-    .gallery-thumbs {
-        height: 20%;
-        box-sizing: border-box;
-        padding: 10px 0;
-    }
-    .gallery-thumbs .swiper-slide {
-        height: 100%;
-        opacity: 0.4;
-    }
-    .gallery-thumbs .swiper-slide-active {
-        opacity: 1;
-    }
 
-    .main .command {
-        background: #333;
-        height: 200px;
-        width: 300px;
+    .slider {
+        width: 260px;
         float: right;
+        overflow: hidden;
+        position: relative;
     }
 
+    .slider div, .slider dl {
+      background-color: #fff;
+    }
+    
+    .widgets_top {
+      height: 292px;
+      margin-bottom: 10px;
+    }
+
+    .widgets_top h3 {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 5px 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .widgets_top a {
+      float: left;
+      display: block;
+    }
+
+    .widgets_top img {
+      display: block;
+      float: left;
+      height: 115px;
+      width: 115px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+        
+    .widgets_like {
+      width: 100%;
+      height: 298px;
+      overflow: hidden;
+    }
+
+    .widgets_like dt, .widgets_like dd{
+      float: left;
+      display: block;
+    }
+
+    .widgets_like dt {
+      font-size: 14px;
+      font-weight: bold;
+      width: 260px;
+      margin-bottom: 5px;
+    }
+
+    .widgets_like span.on {
+      color: #ff88af;
+      background-color: #fff;
+    }
+
+    .widgets_like span {
+      float: left;
+      height: 21px;
+      width: 120px;
+      padding-top: 8px;
+      padding-left: 10px;
+      cursor: pointer;
+      background-color: #eee;
+    }
+
+    .widgets_like span:hover {
+      color: #ff88af;
+    }
+
+    .widgets_like dd {
+      height: 16px;
+      line-height: 18px;
+      width: 240px;
+      margin: 5px 10px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .widgets_like dd a {
+      height: 16px;
+      display: block;
+    }
 
     .footer {
       line-height: 3em;
